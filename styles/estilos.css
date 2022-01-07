@@ -4,9 +4,214 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width 460px) {
-    .hugo{
-        .align-items-center
-    }
+.header{
+    background-color: #AF7AC5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px 0 20px 30px;
+    justify-content: space-between;
     
+   ;
+}
+
+.header__logo{
+    max-width: 100%;
+}
+
+.hero__titulo{
+    font-size: 5rem;
+    color: blueviolet;
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.header__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.header__item{
+    font-size: 3rem;
+    list-style: none;
+    padding: 0px 65px;
+    -webkit-transition: width 2s 0s ease;
+    -moz-transition: width 2s 0s ease;
+    -o-transition: width 2s 0s ease;
+    transition: underline 2s 0s ease;
+}
+
+.header__item:hover{
+    height: 30px;
+    margin: 40px;
+    font-size: 3,5rem;
+    text-decoration: underline;
+}
+
+.header__link{
+    text-decoration: none;
+    color: violet;
+    
+}
+
+.header__link:hover{
+
+    
+
+}
+
+.main{
+   
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.8295693277310925) 27%, rgba(231,0,255,0.24693627450980393) 51%);
+}
+
+.hero{
+    margin: 40px 22px;
+    position: relative;
+    display: flex;
+    display: grid;
+    flex-direction: row-reverse;
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+}
+
+.hero__imagen{
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.hero__imagen--img{
+    width: 100%;
+
+}
+
+.hero__titulo{
+    font-size: 3rem;
+    color: blueviolet;
+    display: flex;
+    font-family: unset;
+}
+
+.hero__parrafo{
+    font-size: 2rem;
+    color:#AF7AC5 ;
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    background-image:background: rgb(231,0,255);
+    background: background: rgb(231,0,255);
+    background: linear-gradient(180deg, rgba(231,0,255,0.24693627450980393) 52%, rgba(118,103,119,0.6250875350140056) 66%, rgba(38,27,27,0.9976365546218487) 99%);;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 22px;
+}
+
+.footer__redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__item{
+    padding-bottom: solid white;
+    font-size: 3rem;
+    list-style: none;
+}
+
+.footer__link{
+    padding-bottom: solid white;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.footer__mapaContenedor{
+    flex-basis: 100%;
+    overflow: hidden;
+}
+
+.footer__mapa{
+    width: 100vw;
+}
+
+/* AQUI EMPIEZA MI CODIGO CSS PARA LA PAGINA "INFORMACION ANIMAL" */
+.grillaDeImagenes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.grillaDeImagenes__contenedor{
+    overflow: hidden;
+}
+
+.grillaDeImagenes__img{
+    display: inline-block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     position: relative;
+     -webkit-transition: all 1.9s 0s ease;
+-moz-transition: all 1.9s 0s ease;
+-o-transition: all 1.9s 0s ease;
+transition: all 1.9s 0s ease;
+}
+
+.grillaDeImagenes__img:hover{
+    height: 1000px;
+
+}
+
+.GRillaDeImagenes__img--{
+    position: absolute;
+}
+
+.contenedor__facebook{
+    width: 100px;
+    height: 100px;
+}
+
+/* CODIGO CSS PARA PAGINA CONTACTOS */
+.form{
+    color: #AF7AC5;
+}
+.form__1{
+    width: 100%;
+    height: 100%;
+}
+.color
+/* AQUI COMIENZAN MIS MEDIA QUERIES */
+
+@media screen and (max-width: 360px) and (min-width: 100px) {
+   .header__item{
+    padding: 0px 10px;
+   } 
+   .header, .header__lista{
+       flex-direction: column;
+       padding: 0px;
+       align-items: flex-start;
+   }
+    .footer__redes{
+        display: flex;
+        flex-direction: column;
+    }
+   
 }

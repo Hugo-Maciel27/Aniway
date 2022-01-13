@@ -26,6 +26,7 @@
 .header__nav{
     display: flex;
     flex-direction: row;
+    background-color: #D7BDE2 !important;
 
     
 }
@@ -33,22 +34,22 @@
 .header__lista{
     font-size: 25px;
 }
-
-.header__item{
-    font-size: 3rem;
-    list-style: none;
-    padding: 0px 65px;
-    -webkit-transition: width 2s 0s ease;
-    -moz-transition: width 2s 0s ease;
-    -o-transition: width 2s 0s ease;
-    transition: underline 2s 0s ease;
+.li__item{
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
+.header__item{
+    font-size: 1,5 rem;
+    list-style: none;
+    padding: 0 100px 0 100px;
+}
 .header__item:hover{
     height: 30px;
     margin: 40px;
     font-size: 3,5rem;
-    text-decoration: underline;
+    text-decoration: underline white;
+    transform: scale(2);
 }
 
 .header__link{
@@ -69,6 +70,11 @@
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0.8295693277310925) 27%, rgba(231,0,255,0.24693627450980393) 51%);
     padding: 100px 0;
+}
+
+.mainAnimacion {
+	animation: BGcolorChanging-6colors 10s linear infinite alternate both;
+    padding: 15px;
 }
 
 .hero{
@@ -247,4 +253,25 @@ transition: all 1.9s 0s ease;
         
     }
    
+}
+
+@keyframes BGcolorChanging-6colors {
+	0% {
+		background: #FF09FB  ;
+	}
+	20% {
+		background: #cc85f5;
+	}
+	40% {
+		background: #6800FE ;
+	}
+	60% {
+		background: #A900FE;
+	}
+	80% {
+		background: #EA00FE  ;
+	}
+	100% {
+		background: #430C47 ;
+	}
 }

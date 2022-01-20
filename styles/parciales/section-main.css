@@ -1,0 +1,9 @@
+.main {
+  background-color: #F4ECF7;
+  padding: 50px 22pxs;
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(27%, rgba(255, 255, 255, 0.829569)), color-stop(51%, rgba(231, 0, 255, 0.246936)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.829569) 27%, rgba(231, 0, 255, 0.246936) 51%);
+  padding: 100px 0;
+}
+/*# sourceMappingURL=section-main.css.map */

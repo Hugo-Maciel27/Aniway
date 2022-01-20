@@ -1,0 +1,40 @@
+.header__logo {
+  max-width: 100%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #D7BDE2 !important;
+}
+
+.header__lista {
+  font-size: 25px;
+}
+
+.header__item {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.header__item__item:hover {
+  height: 30px;
+  margin: 40px;
+  font-size: 3,5rem;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.header__link {
+  font-size: 1,5 rem;
+  list-style: none;
+  padding: 0 100px 0 100px;
+}
+/*# sourceMappingURL=header.css.map */

@@ -135,10 +135,6 @@
     text-decoration: none;
 }
 
-.footer__mapaContenedor{
-    flex-basis: 100%;
-    overflow: hidden;
-}
 
 .footer__mapa{
     width: 100vw;

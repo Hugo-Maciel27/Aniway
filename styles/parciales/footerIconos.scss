@@ -1,0 +1,40 @@
+.footer__redes{
+  
+    &__redes--facebook{
+        font-size: 50px;
+        color:  #3b5998  ;
+       
+        &__redes--facebook:hover{
+            transform: scale(1.5,1.5);
+        }
+        
+    }
+    
+    &__redes--instagram{
+        font-size: 50px;
+        color: #F009B1  ;
+        &__redes--instagram:hover{
+            transform: scale(1.5,1.5);
+        }
+    }
+    
+    
+    &__redes--whatsapp{
+        font-size: 50px;
+        color: chartreuse;
+        .footer__redes--whatsapp:hover{
+            transform: scale(1.5,1.5);
+        
+        }
+    }
+    
+    
+    &__redes--twitter{
+        font-size: 50px;
+        color: #00acee;
+        &__redes--twitter:hover{
+            transform: scale(1.5,1.5);
+        }
+    }
+    }
+    

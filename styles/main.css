@@ -1,2 +1,97 @@
-h1 {
-  color: aqua; }
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  background-color: #F4ECF7;
+  padding: 50px 22pxs;
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(27%, rgba(255, 255, 255, 0.829569)), color-stop(51%, rgba(231, 0, 255, 0.246936)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.829569) 27%, rgba(231, 0, 255, 0.246936) 51%);
+  padding: 100px 0;
+}
+
+.header__logo {
+  max-width: 100%;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #D7BDE2 !important;
+}
+
+.header__lista {
+  font-size: 25px;
+}
+
+.header__item {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.header__item__item:hover {
+  height: 30px;
+  margin: 40px;
+  font-size: 3,5rem;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.header__link {
+  font-size: 1,5 rem;
+  list-style: none;
+  padding: 0 100px 0 100px;
+}
+
+.footer__redes__redes--facebook {
+  font-size: 50px;
+  color: #3b5998;
+}
+
+.footer__redes__redes--facebook__redes--facebook:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.footer__redes__redes--instagram {
+  font-size: 50px;
+  color: #F009B1;
+}
+
+.footer__redes__redes--instagram__redes--instagram:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.footer__redes__redes--whatsapp {
+  font-size: 50px;
+  color: chartreuse;
+}
+
+.footer__redes__redes--whatsapp .footer__redes--whatsapp:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.footer__redes__redes--twitter {
+  font-size: 50px;
+  color: #00acee;
+}
+
+.footer__redes__redes--twitter__redes--twitter:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+/*# sourceMappingURL=main.css.map */

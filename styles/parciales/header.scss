@@ -1,0 +1,39 @@
+@import "./variables.scss";
+.header{
+ 
+    &__logo{
+        max-width: 100%;
+    }
+    
+     &__nav{
+        display: flex;
+        flex-direction: row;
+        background-color: #D7BDE2 !important;
+        
+    }
+    
+    &__lista{
+        font-size: 25px;
+    }
+    &__item{
+        padding-right: $pixel;
+        padding-left: $pixel;
+        &__item:hover{
+            height: 30px;
+            margin: 40px;
+            font-size: 3,5rem;
+            text-decoration: underline white;
+            transform: scale(2);
+        }
+    }
+    &__link{
+        font-size: 1,5 rem;
+        list-style: none;
+        padding: 0 100px 0 100px;
+    }
+    
+}
+        
+    
+
+

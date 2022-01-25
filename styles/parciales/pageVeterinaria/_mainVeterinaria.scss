@@ -1,0 +1,9 @@
+        
+
+.main__contenedor{
+    display: flex;
+    width: 100%;
+    &__mapa{
+        width: 100vh;
+    }
+}

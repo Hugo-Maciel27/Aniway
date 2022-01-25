@@ -94,4 +94,15 @@
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
+
+.main__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.main__contenedor__mapa {
+  width: 100vh;
+}
 /*# sourceMappingURL=main.css.map */

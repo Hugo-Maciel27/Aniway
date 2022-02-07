@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./maps";
+
 .header{
  
     &__logo{
@@ -8,7 +10,7 @@
      &__nav{
         display: flex;
         flex-direction: row;
-        background-color: #D7BDE2 !important;
+        background-color: map-get($colors , rosa ) !important;
         
     }
     
@@ -18,11 +20,11 @@
     &__item{
         padding-right: $pixel;
         padding-left: $pixel;
-        &__item:hover{
+        :hover{
             height: 30px;
             margin: 40px;
             font-size: 3,5rem;
-            text-decoration: underline white;
+            text-decoration: underline map-get($colors , blanco);
             transform: scale(2);
         }
     }

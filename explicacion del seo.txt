@@ -1,0 +1,25 @@
+ En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Esta pagina esta dedicada a la atencion, cuidado y transporte seguro de animales domesticos y exoticos"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a la página de mi sitio: "animales, ayuda"
+para el encabezado use un h1 con el texto "TRANSPORTE, VETERINARIAS, INFORMACION SOBRE EL CUIDADO DE TUS MASCOTAS Y UN SERVICIO EFICIENTE EN ATENCION"
+
+En el archivo contactos.html sumé el SEO con las siguientes características:
+description:"contacta con nosotros para poder asesorarte"
+keywors:animal,asesoria
+
+En el archivo transporteAnimal.html sumé el SEO con las siguientes características:
+description:"Te tranponsportamos a ti y a tu mascota al lugar que necesites"
+keywords:transporte,animal
+
+En el archivo veterinaria.html sumé el SEO con las siguientes características:
+description:"Te ayudamos a encontrar la mejor veterinaria en tu zona"
+keywords:veterinaria,exoticos
+
+En el archivo informacionAnimal.html sumé el SEO con las siguientes características:
+description:"informacion relevante sobre tu mascota exotica"
+keywords:informacion, animales
+
+le cambie el title a todas las paginas
+
+
+

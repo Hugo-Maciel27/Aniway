@@ -1,0 +1,3 @@
+agregue "@extend" en styles/parciales/_footerIconos.scss
+agregue mixins en styles/parciales/_footer.scss
+agregue maps en styles/parciales/_maps.scss y lo aplique en styles/parciales/_header.scss

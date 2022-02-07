@@ -1,0 +1,35 @@
+@import "./responsive-mixins";
+
+.footer{
+    display: flex;
+    background: linear-gradient(180deg, rgba(231,0,255,0.24693627450980393) 20%, rgba(118,103,119,0.6250875350140056) 40%, rgba(38,27,27,0.9976365546218487) 99%);;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 22px;
+    &__parrafo{
+        
+        font-size: 50px;
+        text-align: center;
+        @include movil{
+            font-size: 25px;
+        }
+    }
+    &__redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 0;
+    }
+    &__item{
+        padding-bottom: solid white;
+        font-size: 3rem;
+        list-style: none;
+    }
+    &__link{
+        padding-bottom: solid white;
+        color: blueviolet;
+        text-decoration: none;
+    }
+}
+
+

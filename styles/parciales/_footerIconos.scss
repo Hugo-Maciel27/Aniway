@@ -1,38 +1,42 @@
-.footer__redes{
+.iconos{
+    font-size: 50px;
+    color:  #3b5998;
+    
+}
+.footer{
   
-    &__redes--facebook{
-        font-size: 50px;
-        color:  #3b5998  ;
+    &__facebook{
+        @extend .iconos;
        
-        &__redes--facebook:hover{
+        :hover{
             transform: scale(1.5,1.5);
         }
         
     }
     
-    &__redes--instagram{
-        font-size: 50px;
+    &__instagram{
+       @extend .iconos;
         color: #F009B1  ;
-        &__redes--instagram:hover{
+        :hover{
             transform: scale(1.5,1.5);
         }
     }
     
     
-    &__redes--whatsapp{
-        font-size: 50px;
+    &__whatsapp{
+        @extend .iconos;
         color: chartreuse;
-        .footer__redes--whatsapp:hover{
+        :hover{
             transform: scale(1.5,1.5);
         
         }
     }
     
     
-    &__redes--twitter{
+    &__twitter{
         font-size: 50px;
         color: #00acee;
-        &__redes--twitter:hover{
+        :hover{
             transform: scale(1.5,1.5);
         }
     }

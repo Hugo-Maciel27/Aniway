@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main {
@@ -27,7 +26,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #D7BDE2 !important;
+  background-color: pink !important;
 }
 
 .header__lista {
@@ -39,7 +38,7 @@
   padding-left: 50px;
 }
 
-.header__item__item:hover {
+.header__item :hover {
   height: 30px;
   margin: 40px;
   font-size: 3,5rem;
@@ -55,54 +54,107 @@
   padding: 0 100px 0 100px;
 }
 
-.footer__redes__redes--facebook {
+.iconos, .footer__facebook, .footer__instagram, .footer__whatsapp {
   font-size: 50px;
   color: #3b5998;
 }
 
-.footer__redes__redes--facebook__redes--facebook:hover {
+.footer__facebook :hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
 
-.footer__redes__redes--instagram {
-  font-size: 50px;
+.footer__instagram {
   color: #F009B1;
 }
 
-.footer__redes__redes--instagram__redes--instagram:hover {
+.footer__instagram :hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
 
-.footer__redes__redes--whatsapp {
-  font-size: 50px;
+.footer__whatsapp {
   color: chartreuse;
 }
 
-.footer__redes__redes--whatsapp .footer__redes--whatsapp:hover {
+.footer__whatsapp :hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
 
-.footer__redes__redes--twitter {
+.footer__twitter {
   font-size: 50px;
   color: #00acee;
 }
 
-.footer__redes__redes--twitter__redes--twitter:hover {
+.footer__twitter :hover {
   -webkit-transform: scale(1.5, 1.5);
           transform: scale(1.5, 1.5);
 }
 
-.main__contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.mainContenedor {
+  overflow: hidden;
+  padding: 50px;
+}
+
+.mainContenedor__mapa {
   width: 100%;
 }
 
-.main__contenedor__mapa {
-  width: 100vh;
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(231, 0, 255, 0.246936)), color-stop(40%, rgba(118, 103, 119, 0.625088)), color-stop(99%, rgba(38, 27, 27, 0.997637)));
+  background: linear-gradient(180deg, rgba(231, 0, 255, 0.246936) 20%, rgba(118, 103, 119, 0.625088) 40%, rgba(38, 27, 27, 0.997637) 99%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 22px;
+}
+
+.footer__parrafo {
+  font-size: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__parrafo {
+    font-size: 25px;
+  }
+}
+
+.footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer__item {
+  padding-bottom: solid white;
+  font-size: 3rem;
+  list-style: none;
+}
+
+.footer__link {
+  padding-bottom: solid white;
+  color: blueviolet;
+  text-decoration: none;
+}
+
+/* SECTION 2 */
+.section2__img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

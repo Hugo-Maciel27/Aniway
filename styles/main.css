@@ -24,6 +24,12 @@
   padding: 100px 0;
 }
 
+@media screen and (max-width: 320px) {
+  .main__contenedor {
+    margin: 10px 0px;
+  }
+}
+
 .header__logo {
   max-width: 100%;
 }
@@ -220,7 +226,7 @@ span {
 
 @media screen and (max-width: 320px) {
   .footer__parrafo {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 

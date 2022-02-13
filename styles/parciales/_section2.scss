@@ -1,6 +1,16 @@
+           @import "./responsive-mixins";
            /* SECTION 2 */
+          .section2{
+            @include movil{
+                 margin-left: 10px;
+                 margin-right: 10px;
+            }
+          }
            .section2__cont{
              position: relative;
+             @include{
+
+             }
            }
            .section2__img{
             width: 100%;

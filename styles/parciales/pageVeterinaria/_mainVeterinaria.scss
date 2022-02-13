@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather:wght@700&display=swap');
+.maingrupo__titulo{
+    font-size: 3rem;
+    font-family: $tipografia;
+}
+span{
+    color: violet;
+    font-family: $tipografia;
+}
+.maingrupo_titulo2{
+    font-size: 2.5rem;
+    font-family: $tipografia;
+}
 
 .mainContenedor{ 
     overflow: hidden;
@@ -5,4 +18,21 @@
     &__mapa{
         width: 100%;
     }
+}
+.maingrupo__fila2{
+    padding: 60px 0;
+}
+.maingrupo__contenedor{
+    border: solid 3px  black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: violet;
+        font-size: 1.5rem;
+        border-bottom: solid violet 2px;
+    }
+    
 }

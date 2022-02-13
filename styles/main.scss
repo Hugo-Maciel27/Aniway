@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather:wght@700&display=swap');
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 @import "./parciales/reset";
 @import "./parciales/section-main";
@@ -8,4 +9,8 @@
 @import "./parciales/footer";
 @import "./parciales/section2";
 @import "./parciales/responsive-mixins";
-@import "./parciales/maps"
+@import "./parciales/maps";
+@import "./parciales/main__contenedor";
+@import "./parciales/keyframes";
+@import "./parciales/pageTransporteAnimal/mainTransporteAnimal";
+@import "./parciales/pageContactos/contactos";

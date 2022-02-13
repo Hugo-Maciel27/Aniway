@@ -1,4 +1,6 @@
 @import "./responsive-mixins";
+@import "./keyframes";
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather:wght@700&display=swap');
 
 .footer{
     display: flex;
@@ -6,8 +8,9 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 50px 22px;
+   
     &__parrafo{
-        
+        font-family: $tipografia;
         font-size: 50px;
         text-align: center;
         @include movil{

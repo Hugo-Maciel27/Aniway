@@ -12,98 +12,112 @@
     <title>Contactos | Aniway</title>
     <meta name="description" content="contacta con nosotros para poder asesorarte">
     <meta name="keywords" content="animal, asesoria">
-    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
-  <header>
+                  
+           <!-- HEADER -->
+     
+  <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light header__nav">
       <div class="container-fluid">
         <img class="header__logo animate__animated animate__zoomIn" src="../multimedia/animals-circle-globe-logo-template-260nw-762474991.png" alt="logo de aniway">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler header__boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse justify-content-center header__contenedor--lista" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center header__lista">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.HTML">Home</a>
+            <li class="nav-item header__item">
+              <a class="nav-link header__link" aria-current="page" href="../index.html">Home</a>
+            </li> 
+            <li class="nav-item header__item">
+              <a class="nav-link header__link" href="../pages/TransporteAnimal.html">Transporte animal</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/TransporteAnimal.html">Transporte animal</a>
+            <li class="nav-item header__item">
+              <a class="nav-link header__link" href="../pages/Veterinarias.html">Veterinarias</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/Veterinarias.html">Veterinarias</a>
+            <li class="nav-item header__item">
+              <a class="nav-link header__link" href="../pages/InformacionAnimal.html">Informacion animal</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/InformacionAnimal.html">InformacionAnimal</a>
+            <li class="nav-item header__item">
+              <a class="nav-link header__link" href="../pages/contactos.html">Contactos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/contactos.html">Contactos</a>
-            </li>
-            
-          </div>
+          </ul>
+        </div>
       </div>
     </nav>
+  </header>
 
-     </header>
-    <main class="container-fluid main" >
+    <main class="main" >
+        <div class="contacto">
+            
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col col-sm-9">
+                            <div class="text-center contacto__general">
+                                <h3 class="contacto__general--titulo">Contactanos</h3>
+                                <p class="mb-5 contacto__general--p">¡pongase en contacto con nosotros! envienos su
+                                    consulta, una opinion o cualquier sugerencia.</p>
+                                <div class="row contacto p-2">
+                                    <div class="col-md-6">
+                                        <div class="mt-5 text-center px-3 contacto__contentImg">
 
-        <form class="row g-3 ">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">contraseña</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">ENVIAR</button>
-            </div>
-          </form>
+                                           <img  class="contacto__img" src="https://cdn-icons-png.flaticon.com/512/11/11034.png" alt="imagen png de contactos">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 contacto__contenedor">
+                                        <div class="text-center px-1 contacto__form">
+                                            <div class="forms text-black p-4 py-5">
+                                                <h5>Enviar mensaje</h5>
+                                                <div class="mt-4 inputs form__inputContent">
+                                                    <input id="apellido" name="apellido" type="text" class="form-control imput form__input" placeholder="Apellido" required>
+                                                    <input id="nombre" name="nombre" type="text" class="form-control imput form__input" placeholder="Nombre" required>
+                                                    <input id="email" name="email" type="text" class="form-control impu form__input" placeholder="Email" required>
+                                                    <textarea id="mensaje" name="mensaje" class="form-control imput_txt form__input"
+                                                        placeholder="Dejanos tu comentario" required></textarea>
+                                                </div>
+                                                <div class="button mt-4 text-left form__button">
+                                                    <button type="submit" class="btn btn-dark">Enviar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+
     </main>
     
   <!-- FOOTER -->
 
   <footer class="footer">
-    <div class="footer__redes">
-      <a href="https://es-la.facebook.com/" target="_blank" class="footer__redes--facebook"><i class="fab fa-facebook facebook"></i></a>
-      <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="footer__redes--instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="footer__redes--whatsapp"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://twitter.com/?lang=es" target="_blank" class="footer__redes--twitter"><i class="fab fa-twitter"></i></a>
-    </div>
-  </footer>
+    <h6 class="footer__parrafo">NUESTRAS REDES</h6>
     
-       
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"></script>
+  <div class="footer__redes">
+    <a href="https://es-la.facebook.com/" target="_blank" class="footer__facebook"><i class="fab fa-facebook facebook"></i></a>
+    <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="footer__instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.whatsapp.com/?lang=es" target="_blank" class="footer__whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com/?lang=es" target="_blank" class="footer__twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+</footer>
+
+
+
+             <!-- SCRIPTS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

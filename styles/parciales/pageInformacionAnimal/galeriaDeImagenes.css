@@ -1,0 +1,81 @@
+@-webkit-keyframes BGcolorChanging-6colors {
+  0% {
+    background: #FF09FB;
+  }
+  20% {
+    background: #cc85f5;
+  }
+  40% {
+    background: #6800FE;
+  }
+  60% {
+    background: #A900FE;
+  }
+  80% {
+    background: #EA00FE;
+  }
+  100% {
+    background: #430C47;
+  }
+}
+
+@keyframes BGcolorChanging-6colors {
+  0% {
+    background: #FF09FB;
+  }
+  20% {
+    background: #cc85f5;
+  }
+  40% {
+    background: #6800FE;
+  }
+  60% {
+    background: #A900FE;
+  }
+  80% {
+    background: #EA00FE;
+  }
+  100% {
+    background: #430C47;
+  }
+}
+
+/* AQUI EMPIEZA MI CODIGO CSS PARA LA PAGINA "INFORMACION ANIMAL" */
+.grillaDeImagenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.grillaDeImagenes__contenedor {
+  overflow: hidden;
+}
+
+.grillaDeImagenes__img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  -webkit-transition: all 1.9s 0s ease;
+  transition: all 1.9s 0s ease;
+}
+
+.grillaDeImagenes__img :hover {
+  height: 1000px;
+}
+
+.grillaDeImagenes__img-- {
+  position: absolute;
+}
+/*# sourceMappingURL=galeriaDeImagenes.css.map */

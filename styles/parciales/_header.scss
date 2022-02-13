@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Merriweather:wght@700&display=swap');
 @import "./variables";
 @import "./maps";
 
 .header{
+
+  
  
     &__logo{
         max-width: 100%;
@@ -10,22 +13,25 @@
      &__nav{
         display: flex;
         flex-direction: row;
-        background-color: map-get($colors , rosa ) !important;
+        background-color: map-get($colors , violeta ) !important;
         
     }
     
     &__lista{
         font-size: 25px;
+        font-family: 'Merriweather', serif;
     }
     &__item{
         padding-right: $pixel;
         padding-left: $pixel;
         :hover{
-            height: 30px;
-            margin: 40px;
-            font-size: 3,5rem;
+            transition: all 1.5s ease-in-out;
+            height: 20px;
+            margin: 30px;
+            font-size: 1 rem;
             text-decoration: underline map-get($colors , blanco);
-            transform: scale(2);
+            transform: scale(1.5);
+            
         }
     }
     &__link{
